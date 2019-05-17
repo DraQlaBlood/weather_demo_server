@@ -21,7 +21,7 @@ import java.util.UUID;
 
 @Api(value = "CRUD operations API")
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5000"})
+@CrossOrigin(origins = {"http://localhost:8083"})
 @RequestMapping("/weather/v1")
 public class WeatherController {
 
